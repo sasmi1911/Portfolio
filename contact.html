@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | Sasmitha Ramasamy</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body data-page="contact">
+  <header class="header">
+    <div class="nav">
+      <a class="brand" href="index.html">Sasmitha ✿</a>
+      <button class="menu" aria-expanded="false">☰ Menu</button>
+      <nav class="links">
+        <a data-page="home" href="index.html">⌂ Home</a>
+        <a data-page="about" href="about.html">♡ About Me</a>
+        <a data-page="skills" href="skills.html">✦ Skills &amp; Interests</a>
+        <a data-page="projects" href="projects.html">▣ Projects</a>
+        <a data-page="contact" href="contact.html">✉ Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="heading">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h1>Contact Me 💌</h1>
+      <p>Feel free to contact me about my work, ideas, or opportunities to learn.</p>
+    </section>
+
+    <section class="contact">
+      <div class="panel">
+        <h2>Contact details</h2>
+        <p>
+          📧 <b>Email</b><br>
+          <a href="mailto:sasmi.1911@gmail.com">sasmi.1911@gmail.com</a>
+        </p>
+        <p>
+          📱 <b>Phone</b><br>
+          <a href="tel:+919585882555">+91 95858 82555</a>
+        </p>
+        <small>You can tap the email or phone number to contact me directly.</small>
+      </div>
+
+      <form class="card" id="contactForm">
+        <h2>Send a message</h2>
+
+        <label for="name">Your name</label>
+        <input id="name" required placeholder="Enter your name">
+
+        <label for="email">Your email</label>
+        <input id="email" type="email" required placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" required placeholder="Write your message..."></textarea>
+
+        <button class="btn" type="submit">Prepare email ↗</button>
+        <small id="formMessage">This form opens your email app; it does not send mail directly.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Made with 💜 by Sasmitha Ramasamy · <span id="year"></span>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
